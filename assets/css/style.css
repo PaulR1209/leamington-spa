@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pontano+Sans:wght@300&family=Stint+Ultra+Expanded&display=swap');
 
 * {
     margin: 0;
@@ -7,9 +7,23 @@
 }
 
 body {
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'pontano sans', serif;
+    font-weight: 300;
+    color: #1b4552;
 }
+
+/*headings and logo*/
+
 h1 {
-    color: #194a7a;
+    font-family: 'stint ultra expanded';
+    color: #183e4b;
     text-transform: uppercase;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
+}
+nav li {
+    float: right;
 }
