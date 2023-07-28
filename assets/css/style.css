@@ -21,18 +21,34 @@ h1 {
 }
 
 #logo {
-    text-align: center;
-    font-size: 500%;
+    float: left;
+    font-size: 300%;
+    margin-left: 30px;
+    font-weight: 1000;
 }
 
 /* nav links*/
 
 #menu {
     font-size: 150%;
-    text-align: center;
-    
+    float: right;
+}
+
+#menu, #logo {
+    line-height: 75px;
 }
 
 #menu li {
+    float: left;
     display: inline;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color:inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid;
 }
