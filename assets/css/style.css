@@ -84,9 +84,18 @@ h1, h2 {
 
 footer {
     height: 150px;
+    margin: 10px;
 }
 
 .social-media {
     display: flex;
     justify-content: space-around;
+    align-items: flex-end;
+    list-style-type: none;
+    font-size: 200%;
+    min-height: 90%;
+}
+
+i {
+    color: #183e4b;
 }
