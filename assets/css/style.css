@@ -80,3 +80,13 @@ h1, h2 {
     height: 250px;
 }
 
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+}
