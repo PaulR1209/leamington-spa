@@ -14,7 +14,7 @@ body {
 
 /*headings and logo*/
 
-h1 {
+h1, h2 {
     font-family: 'stint ultra expanded';
     color: #183e4b;
     text-transform: uppercase;
@@ -51,4 +51,23 @@ h1 {
 
 #menu a:hover {
     color: #d74a49;
+}
+
+/* hero image */
+
+#hero-image {
+    background: url('../images/The_Parade\,_Leamington_Spa_\(4\)_\(adjusted\).jpg') no-repeat center center;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* history section */
+
+#history-text {
+    float: left;
+}
+
+#history-image {
+    float: right;
 }
