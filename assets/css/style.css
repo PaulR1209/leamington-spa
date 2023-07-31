@@ -64,10 +64,19 @@ h1, h2 {
 
 /* history section */
 
-#history-text {
-    float: left;
+.flex-container {
+    display: flex;
 }
 
-#history-image {
-    float: right;
+.flex-container > div {
+    margin: 20px;
 }
+
+.flex-text {
+    text-align: justify;
+}
+
+.flex-image {
+    height: 250px;
+}
+
