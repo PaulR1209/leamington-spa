@@ -58,7 +58,8 @@ h1, h2 {
 #hero-image {
     background: url('../images/The_Parade\,_Leamington_Spa_\(4\)_\(adjusted\).jpg') no-repeat center center;
     height: 500px;
-    width: 100%;
+    width: 96%;
+    margin: 30px;
     overflow: hidden;
 }
 
@@ -66,14 +67,16 @@ h1, h2 {
 
 .flex-container {
     display: flex;
+    justify-content: space-between;
 }
 
 .flex-container > div {
-    margin: 20px;
+    margin: 30px;
 }
 
 .flex-text {
     text-align: justify;
+    width: 45%;
 }
 
 .flex-image {
@@ -84,7 +87,7 @@ h1, h2 {
 
 footer {
     height: 150px;
-    margin: 10px;
+    margin: 30px;
 }
 
 .social-media {
