@@ -68,6 +68,7 @@ h1, h2 {
 .flex-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .flex-container > div {
