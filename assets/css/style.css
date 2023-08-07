@@ -56,7 +56,8 @@ h1, h2 {
 /* hero image */
 
 #hero-image {
-    background: url('../images/The_Parade\,_Leamington_Spa_\(4\)_\(adjusted\).jpg') no-repeat center center;
+    background: url('../images/The_Parade\,_Leamington_Spa_\(4\)_\(adjusted\).jpg') 
+    no-repeat center center;
     height: 500px;
     width: 96%;
     margin: 30px;
@@ -67,7 +68,7 @@ h1, h2 {
 
 .flex-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
