@@ -104,3 +104,11 @@ footer {
 i {
     color: #183e4b;
 }
+
+/* gallery */
+
+#gallery-images {
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+}
