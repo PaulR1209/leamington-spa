@@ -108,7 +108,18 @@ i {
 /* gallery */
 
 #gallery-images {
-    clear: both;
     display: flex;
     flex-wrap: wrap;
+}
+
+#gallery-column-left {
+    justify-content: flex-start;
+}
+
+#gallery-column-centre {
+    justify-content: center;
+}
+
+#gallery-column-right {
+    justify-content: flex-end;
 }
