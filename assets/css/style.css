@@ -107,19 +107,15 @@ i {
 
 /* gallery */
 
-#gallery-images {
+#gallery {
     display: flex;
+    clear: both;
     flex-wrap: wrap;
-}
-
-#gallery-column-left {
-    justify-content: flex-start;
-}
-
-#gallery-column-centre {
     justify-content: center;
 }
 
-#gallery-column-right {
-    justify-content: flex-end;
+.gallery-images {
+    max-width: 30%;
+    height: auto;
+    padding: 1px;
 }
