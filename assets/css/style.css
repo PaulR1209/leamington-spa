@@ -109,13 +109,15 @@ i {
 
 #gallery {
     display: flex;
-    clear: both;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
 }
 
-.gallery-images {
-    max-width: 30%;
+#gallery img {
+    width: 30%;
     height: auto;
-    padding: 1px;
+    object-fit: cover;
+    object-position: center;
+    padding: 6px;
 }
