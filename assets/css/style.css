@@ -127,3 +127,17 @@ i {
 .form {
     clear: both;
 }
+
+input[type=text] {
+    width: 100%;
+    border: 1px solid black;
+}
+
+input[type=email] {
+    width: 100%;
+    border: 1px solid black;
+}
+
+input[type=submit] {
+    background-color: red;
+}
