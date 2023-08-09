@@ -121,3 +121,9 @@ i {
     object-position: center;
     padding: 6px;
 }
+
+/* form */
+
+.form {
+    clear: both;
+}
