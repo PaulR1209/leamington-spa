@@ -124,20 +124,29 @@ i {
 
 /* form */
 
-.form {
-    clear: both;
+fieldset {
+    border: solid 1px #183e4b;
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    
 }
 
-input[type=text] {
-    width: 100%;
+legend {
+    color: #183e4b;
+    font-weight: bold;
+}
+
+label {
+    font-weight: bold;
+    
+}
+
+.input-box {
+    border: solid 1px black;
+}
+
+#submit {
+    padding: 10px;
     border: 1px solid black;
-}
-
-input[type=email] {
-    width: 100%;
-    border: 1px solid black;
-}
-
-input[type=submit] {
-    background-color: red;
 }
