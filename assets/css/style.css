@@ -22,15 +22,15 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 300%;
-    margin-left: 30px;
+    font-size: 3rem;
+    margin-left: 2rem;
     font-weight: 1000;
 }
 
 /* nav links*/
 
 #menu {
-    font-size: 150%;
+    font-size: 1.5rem;
     float: right;
 }
 
@@ -41,7 +41,7 @@ h1, h2 {
 #menu li {
     float: left;
     display: inline;
-    margin-right: 30px;
+    margin-right: 2rem;
 }
 
 #menu a {
@@ -60,7 +60,7 @@ h1, h2 {
     no-repeat center center;
     height: 500px;
     width: 96%;
-    margin: 30px;
+    margin: 2rem;
     overflow: hidden;
 }
 
@@ -73,7 +73,7 @@ h1, h2 {
 }
 
 .flex-container > div {
-    margin: 30px;
+    margin: 2rem;
 }
 
 .flex-text {
@@ -89,7 +89,7 @@ h1, h2 {
 
 footer {
     height: 150px;
-    margin: 30px;
+    margin: 2rem;
 }
 
 .social-media {
@@ -97,7 +97,7 @@ footer {
     justify-content: space-around;
     align-items: flex-end;
     list-style-type: none;
-    font-size: 200%;
+    font-size: 2rem;
     min-height: 90%;
 }
 
