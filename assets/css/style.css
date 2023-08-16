@@ -179,3 +179,25 @@ button:hover {
     background-color: whitesmoke;
     color: #183e4b;
 }
+
+/* media queries */
+
+/* for large screens*/
+
+@media screen and (max-width: 1280px) {
+    #logo, #menu {
+        width: 65%;
+    }
+}
+
+/* for medium screens*/
+
+@media screen and (max-width: 950px) {
+
+}
+
+/* for small screens*/
+
+@media scrren and (max-width: 800px) {
+
+}
