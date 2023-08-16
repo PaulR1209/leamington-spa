@@ -62,6 +62,24 @@ h1, h2 {
     color: #d74a49;
 }
 
+.drop-down-menu {
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2rem;
+    height: 1.5rem;
+}
+
+.drop-down-menu .bar {
+    height: 0.25rem;
+    width: 100%;
+    background-color: #183e4b;
+    border-radius: 10px;
+}
+
 /* hero image */
 
 #hero-image {
@@ -194,9 +212,7 @@ button:hover {
 /* for large screens*/
 
 @media screen and (max-width: 1280px) {
-    #logo, #menu {
-        width: 65%;
-    }
+
 }
 
 /* for medium screens*/
@@ -207,6 +223,13 @@ button:hover {
 
 /* for small screens*/
 
-@media scrren and (max-width: 800px) {
+@media screen and (max-width: 800px) {
+    .drop-down-menu {
+        display: flex;
+    }
+
+    .menu {
+        display: none;
+    }
 
 }
