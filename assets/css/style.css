@@ -33,6 +33,9 @@ h1, h2 {
     font-size: 3rem;
     margin-left: 2rem;
     font-weight: 1000;
+    font-family: 'stint ultra expanded';
+    color: #183e4b;
+    text-transform: uppercase;
 }
 
 .menu {
