@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    text-decoration: none;
 }
 
 body {
@@ -20,36 +21,41 @@ h1, h2 {
     text-transform: uppercase;
 }
 
-#logo {
-    float: left;
+/* nav links*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
     font-size: 3rem;
     margin-left: 2rem;
     font-weight: 1000;
 }
 
-/* nav links*/
-
-#menu {
+.menu {
     font-size: 1.5rem;
-    float: right;
+    display: flex;
 }
 
-#menu, #logo {
+.menu, .logo {
     line-height: 4.5rem;
+    list-style: none;
 }
 
-#menu li {
-    float: left;
-    display: inline;
+.menu li {
     margin-right: 2rem;
 }
 
-#menu a {
+.menu a {
     text-decoration: none;
+    list-style: none;
     color:inherit;
 }
 
-#menu a:hover {
+.menu a:hover {
     color: #d74a49;
 }
 
