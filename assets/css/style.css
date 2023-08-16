@@ -138,7 +138,7 @@ i {
 }
 
 .form-content {
-    margin: 12rem 0 0 8rem;
+    margin: 7rem 0 0 7rem;
     padding: 2rem;
     background-color: rgba(152, 159, 173, 0.6);
     max-width: 30%;
@@ -156,6 +156,10 @@ label {
     border: solid 0.05rem #183e4b;
     background: transparent;
     border-radius: 0.25rem;
+}
+
+.input-box:hover {
+    background: whitesmoke;
 }
 
 .message-box {
