@@ -124,27 +124,54 @@ i {
 
 /* form */
 
+#form-image {
+    background: url(../images/chesterton-windmill.webp);
+    background-size: cover;
+    background-position: center;
+    height: 56rem;
+}
+
 .form {
     clear: both;
+    margin-top: 4rem;
+    padding: 2rem;
+}
+
+.form-content {
+    margin: 12rem 0 0 8rem;
+    padding: 2rem;
+    background-color: rgba(152, 159, 173, 0.6);
+    max-width: 30%;
+
 }
 
 label {
     font-weight: bold;
+    color: #183e4b;
     
 }
 
 .input-box {
-    border: solid 0.05rem black;
+    color: #183e4b;
+    border: solid 0.05rem #183e4b;
+    background: transparent;
+    border-radius: 0.25rem;
+}
+
+.message-box {
+    height: 5rem;
+    width: 100%;
 }
 
 button {
-    padding: 0.25em 0.5em;
-    border: 0.125em solid black;
+    padding: 0.5em 1em;
     background-color: #183e4b;
-    color: white;
+    color: whitesmoke;
+    border-radius: 0.25rem;
+    font-size: 100%;
 }
 
 button:hover {
-    background-color: #d74a49;
+    background-color: whitesmoke;
     color: #183e4b;
 }
