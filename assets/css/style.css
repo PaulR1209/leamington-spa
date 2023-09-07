@@ -184,3 +184,22 @@ button:hover {
     background-color: whitesmoke;
     color: #183e4b;
 }
+
+/* media queries*/
+
+/* mobile phones */
+
+@media screen and (max-width: 400px) {
+    
+    .navbar {
+        flex-direction: column;
+    }
+
+    #hero-image {
+        display: none;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+}
