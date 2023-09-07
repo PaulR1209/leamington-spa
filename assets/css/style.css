@@ -195,6 +195,10 @@ button:hover {
         flex-direction: column;
     }
 
+    .logo {
+        
+    }
+
     #hero-image {
         display: none;
     }
@@ -202,4 +206,18 @@ button:hover {
     .flex-container {
         flex-direction: column;
     }
+
+    .flex-container > * {
+        width: 95%;
+    }
+
+    .flex-image, iframe {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #gallery img {
+        width: 100%;
+    }
+
 }
