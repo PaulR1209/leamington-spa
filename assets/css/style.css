@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: 'pontano sans', serif;
+    font-family: 'pontano sans', sans-serif;
     font-weight: 300;
     color: #1b4552;
 }
@@ -41,9 +41,6 @@ h1, h2 {
 .menu {
     font-size: 1.5rem;
     display: flex;
-}
-
-.menu, .logo {
     line-height: 4.5rem;
     list-style: none;
 }
@@ -54,30 +51,11 @@ h1, h2 {
 
 .menu a {
     text-decoration: none;
-    list-style: none;
     color:inherit;
 }
 
 .menu a:hover {
     color: #d74a49;
-}
-
-.drop-down-menu {
-    position: absolute;
-    top: 1.5rem;
-    right: 1.5rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 2rem;
-    height: 1.5rem;
-}
-
-.drop-down-menu .bar {
-    height: 0.25rem;
-    width: 100%;
-    background-color: #183e4b;
-    border-radius: 10px;
 }
 
 /* hero image */
@@ -109,7 +87,8 @@ h1, h2 {
 }
 
 .flex-image {
-    height: 250px;
+    height: auto;
+    max-width: 100%;
 }
 
 /* footer */
@@ -205,45 +184,4 @@ button {
 button:hover {
     background-color: whitesmoke;
     color: #183e4b;
-}
-
-/* media queries */
-
-/* for large screens*/
-
-@media screen and (max-width: 1280px) {
-
-}
-
-/* for medium screens*/
-
-@media screen and (max-width: 1000px) {
-    .drop-down-menu {
-        display: flex;
-    }
-
-    .menu {
-        display: none;
-    }
-
-    .flex-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .flex-container >* {
-        width: 90%;
-    }
-
-    .flex-image {
-        max-width: 100%;
-        height: auto;
-    }
-
-}
-
-/* for small screens*/
-
-@media screen and (max-width: 800px) {
-
 }
