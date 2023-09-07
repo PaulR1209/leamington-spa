@@ -64,8 +64,8 @@ h1, h2 {
 
 .drop-down-menu {
     position: absolute;
-    top: 0.75rem;
-    right: 1rem;
+    top: 1.5rem;
+    right: 1.5rem;
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -217,13 +217,7 @@ button:hover {
 
 /* for medium screens*/
 
-@media screen and (max-width: 950px) {
-
-}
-
-/* for small screens*/
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .drop-down-menu {
         display: flex;
     }
@@ -231,5 +225,25 @@ button:hover {
     .menu {
         display: none;
     }
+
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flex-container >* {
+        width: 90%;
+    }
+
+    .flex-image {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+/* for small screens*/
+
+@media screen and (max-width: 800px) {
 
 }
