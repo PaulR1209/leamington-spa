@@ -87,8 +87,7 @@ h1, h2 {
 }
 
 .flex-image {
-    height: auto;
-    max-width: 100%;
+    height: 300px;
 }
 
 /* footer */
