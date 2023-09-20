@@ -189,13 +189,27 @@ button:hover {
 
 /* mobile phones */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
+
+    header {
+        padding: 0 1rem;
+        position: fixed;
+        z-index: 99;
+        width: 100%;
+        box-shadow: 0 2px 2px;
+    }
 
     .navbar {
         flex-direction: column;
     }
 
-    .logo {}
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
 
     #hero-image {
         display: none;
