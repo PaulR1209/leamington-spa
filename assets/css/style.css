@@ -28,6 +28,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #183e4b;
 }
 
 .logo {
@@ -35,7 +36,7 @@ h2 {
     margin-left: 2rem;
     font-weight: 1000;
     font-family: 'stint ultra expanded';
-    color: #183e4b;
+    color: white;
     text-transform: uppercase;
 }
 
@@ -52,7 +53,7 @@ h2 {
 
 .menu a {
     text-decoration: none;
-    color: inherit;
+    color: white;
 }
 
 .menu a:hover {
@@ -62,11 +63,9 @@ h2 {
 /* hero image */
 
 #hero-image {
-    background: url('../images/The_Parade\,_Leamington_Spa_\(4\)_\(adjusted\).webp') no-repeat center center;
-    height: 500px;
-    width: 96%;
-    margin: 2rem;
-    overflow: hidden;
+    background: url('../images/The_Parade\,_Leamington_Spa_\(4\)_\(adjusted\).webp') no-repeat center center/cover;
+    height: 600px;
+    width: 100%;
 }
 
 /* history section */
@@ -187,88 +186,22 @@ button:hover {
 
 /* media queries*/
 
-/* mobile phones */
+/* tablets */
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 768px) {
 
-    header {
-        padding: 0 1rem;
-        position: fixed;
-        z-index: 99;
-        width: 100%;
-        box-shadow: 0 2px 2px #183e4b;
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-        color: white;
-        background-color: #183e4b;
-    }
-
-    #nav-toggle:checked~.menu {
-        display: block;
-    }
-
-    #nav-toggle {
-        display: none;
-    }
-
-    .nav-toggle-label {
-        font-size: 1.5rem;
-        color: white;
+    .logo {
+        font-size: 2rem;
     }
 
     .menu {
-        position: absolute;
-        width: 100%;
-        left: 0;
-        padding: 0 1rem;
-        box-shadow: 0 2px 2px;
-        display: none;
-        top: 100%;
-        background-color: #183e4b;
-    }
-
-    .logo {
-        font-size: 1.5rem;
-        padding-right: 2rem;
-        color: white;
-    }
-
-    h2 {
         font-size: 1rem;
     }
-
-    #hero-image {
-        display: none;
-    }
-
-    .flex-container {
-        flex-direction: column;
-    }
-
-    .flex-container>* {
-        width: 95%;
-    }
-
-    .flex-image,
-    iframe {
-        max-width: 100%;
-        height: auto;
-    }
-
-    #gallery img {
-        width: 100%;
-    }
-
 }
 
-/* large screens*/
+@media screen and (max-width: 425px) {
 
-@media screen and (min-width: 1000px){
-
-    .nav-toggle-label,
-        #nav-toggle {
-            display: none;
-        }
-    
+    .logo {
+        font-size: 1rem;
+    }
 }
