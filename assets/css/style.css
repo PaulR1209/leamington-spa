@@ -250,19 +250,42 @@ button:hover {
             width: 90%;
         }
         
-    .menu {
-        position: absolute;
-        width: 100%;
-        left: 0;
-        padding: 0 1rem;
-    } 
-    
-    .nav-toggle-label {
-        display: block;
-        margin-right: 2rem;
-        line-height: 4.5rem;
-    }
-    
+                header {
+                    padding: 0 1rem;
+                    position: fixed;
+                    z-index: 99;
+                    width: 100%;
+                    box-shadow: 0 2px 2px #183e4b;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: baseline;
+                    color: white;
+                    background-color: #183e4b;
+                }
+        
+                #nav-toggle:checked~.menu {
+                    display: block;
+                }
+        
+                #nav-toggle {
+                    display: none;
+                }
+
+                .nav-toggle-label {
+                    display: block;
+                }
+        
+                .menu {
+                    position: absolute;
+                    width: 100%;
+                    left: 0;
+                    padding: 0 1rem;
+                    box-shadow: 0 2px 2px;
+                    display: none;
+                    top: 100%;
+                    background-color: #183e4b;
+                }
+
 }
 
 @media screen and (max-width: 425px) {
