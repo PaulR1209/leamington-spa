@@ -238,6 +238,9 @@ button:hover {
 
     .form-content {
         max-width: 50%;
+        position: relative;
+        margin: auto;
+        top: 15%;
     }
 
 }
@@ -304,13 +307,21 @@ button:hover {
                 .logo {
                     margin-right: 2rem;
                 }
+}
 
+@media screen and (max-width: 550px) {
+
+    
 }
 
 @media screen and (max-width: 450px) {
 
     .logo {
         font-size: 1.25rem;
+    }
+
+    .form-content {
+        max-width: 100%;
     }
 }
 
