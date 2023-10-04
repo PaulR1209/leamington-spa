@@ -253,7 +253,7 @@ button:hover {
         
                 header {
                     padding: 0 1rem;
-                    position: fixed;
+                    position: relative;
                     z-index: 99;
                     width: 100%;
                     box-shadow: 0 2px 2px #183e4b;
