@@ -264,7 +264,7 @@ button:hover {
                     padding: 0 1rem;
                     position: relative;
                     z-index: 99;
-                    width: 100%;
+                    width: 92.5%;
                     box-shadow: 0 2px 2px #183e4b;
                     display: flex;
                     justify-content: space-evenly;
