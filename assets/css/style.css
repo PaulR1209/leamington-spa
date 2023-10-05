@@ -348,4 +348,12 @@ button:hover {
         .nav-toggle-label {
             font-size: 0.75rem;
         }
+
+        header {
+            width: 90%;
+        }
+
+        #hero-image {
+            height: 300px;
+        }
     }
