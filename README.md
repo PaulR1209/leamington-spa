@@ -83,3 +83,19 @@ I tested my pages on lighthouse for performance and accessibility. Performance i
 <img src='assets/images/lighthouse.gallery.png'>
 
 <img src='assets/images/lighthouse.contact.png'>
+
+## Manual Testing
+
+I tested the website out on a Lenovo IdeaPad and a Google Pixel 4a 5g.
+
+I tested the Navbar on both screens. On mobile, the width of the Navbar was slightly wider than the content, which caused me to be able to sidescroll. I shortened the width to fix this. Everything else worked as expected.
+
+The Youtube link worked as expected. Video did not autoplay.
+
+Contact us form all working as expected. Data pushed through to Code Institute. Data would not push through without correct fields filled out.
+
+Responsive design all working as expected. Content stacked in the correct order on mobile.
+
+## Bugs
+
+No bugs to report.
