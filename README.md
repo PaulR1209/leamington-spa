@@ -43,3 +43,23 @@ I would be open to adding new bits of history of the town to this part of the we
 The footer includes links to relevant social media websites, which will open in a new tab. The favicons were taken from Font Awesome.
 
 <img src='assets/images/footer.png'>
+
+## Gallery
+
+For the Gallery page, I used a simple grid style gallery. I used the code from an idea I found on Stack Overflow, and personalised it to my own needs. I got my images from Google Images.
+
+I added a gallery to showcase the beauty of Leamington Spa to attract people to visit the town.
+
+I also converted all images to webp, using <https://cloudconvert.com/> for faster loading times.
+
+<img src='assets/images/gallery.png'>
+
+## Contact Us
+
+The contact us page was inspired by the Love Running project. I used the code from the project and persoanlised it to my needs. I got the background image from Google Images.
+
+I got the colour code for the background of my form from <https://html-color.codes/image>
+
+<img src='assets/images/contact_us.png'>
+
+<img src='assets/images/color_codes.png'>
