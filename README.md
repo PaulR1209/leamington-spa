@@ -32,7 +32,7 @@ The history and origins, I found on Wikipedia. The lawn Tennis was a mix of info
 
 The Silicon Spa section was my own knowledge, mixed with Google searches, partnered with an embed YouTube link, which is set to not auto play.
 
-I would be open to adding new bits of history of the town to this part of the website, and possibly creating a new page, keeping the history on the home page, and creating a 'Whats Going On' page, where I could move 'Silicon Spa' and add more information.
+I would like to add new bits of history of the town to this part of the website, and to create a new page, keeping the history on the home page, and creating a 'Whats Going On' page, where I could move 'Silicon Spa' and add more information.
 
 <img src='assets/images/history_section.png'>
 
@@ -63,3 +63,23 @@ I got the colour code for the background of my form from <https://html-color.cod
 <img src='assets/images/contact_us.png'>
 
 <img src='assets/images/color_codes.png'>
+
+# Testing
+
+## Validators
+
+I tested my code on CSS and HTML validators. My CSS came out with one parse error. This turned out to just be a small error of not closing a bracket, which was an easy fix. They now both have no errors.
+
+<img src='assets/images/w3c.png'>
+
+<img src='assets/images/jigsaw.png'>
+
+## Lighthouse
+
+I tested my pages on lighthouse for performance and accessibility. Performance is a little slow due to a large amount of images. Best practices score needs more investigating. Everything else is all good.
+
+<img src='assets/images/lighthouse.home.png'>
+
+<img src='assets/images/lighthouse.gallery.png'>
+
+<img src='assets/images/lighthouse.contact.png'>
