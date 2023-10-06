@@ -99,3 +99,27 @@ Responsive design all working as expected. Content stacked in the correct order 
 ## Bugs
 
 No bugs to report.
+
+# Deployment
+
+This site was deployed to GitHub pages. The steps are as follows:
+
+* In the GitHub repository, go to settings
+* Go to the Pages tab
+* Make sure the branch is set to main and the folder is set to root
+* Then press deploy from a branch
+
+This is the live link: <https://paulr1209.github.io/leamington-spa/>
+
+
+# Credits
+
+The main bulk of my code when it came to my navbar and contact us page, I used code from the Love Running project.
+
+I went through the Love Running project alongside creating this website to gain ispiration and ideas. I also used w3schools and Stack Overflow for when I found bugs in my website and needed fixes.
+
+All of my images, I got from Google Images.
+
+I got all of my icons from Font Awesome.
+
+All of my content other than what has been stated, came from Wikipedia.
