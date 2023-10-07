@@ -2,7 +2,7 @@
 
 This is a website about the town that I live in, called Leamington Spa. The purpose of the website is to give a brief history of the town, and to give a small insite into what is going on in the town today. My target audience varies from local people who want to know more about the town they live in, to people wanting to visit the town for the first time. 
 
-<img src='assets/screenshots/am_i_responsive.png'>
+<img src='/screenshots/am_i_responsive.png'>
 
 # Features
 
@@ -12,9 +12,9 @@ Featured exactly the same on each page. Includes the logo and links to the Home 
 
 This is also fully responsive to allow easy navigation across all sizes of screens. I have incorporated a hamburger menu for smaller screens, so that the Navigation bar is not too crowded. The vast majority of my code for the hamburger menu is from the Love Running project.
 
-<img src='assets/screenshots/navbar.png'>
+<img src='/screenshots/navbar.png'>
 
-<img src='assets/screenshots/mobile_navbar.png'>
+<img src='/screenshots/mobile_navbar.png'>
 
 ## Hero Image
 
@@ -22,7 +22,7 @@ The hero image is an image of the high street in Leamington spa. I chose this im
 
 I found this image on Google Images.
 
-<img src='assets/screenshots/hero_image.png'>
+<img src='/screenshots/hero_image.png'>
 
 ## History and About Leamington Spa
 
@@ -34,15 +34,15 @@ The Silicon Spa section was my own knowledge, mixed with Google searches, partne
 
 I would like to add new bits of history of the town to this part of the website, and to create a new page, keeping the history on the home page, and creating a 'Whats Going On' page, where I could move 'Silicon Spa' and add more information.
 
-<img src='assets/screenshots/history_section.png'>
+<img src='/screenshots/history_section.png'>
 
-<img src='assets/screenshots/silicon_spa.png'>
+<img src='/screenshots/silicon_spa.png'>
 
 ## Footer
 
 The footer includes links to relevant social media websites, which will open in a new tab. The favicons were taken from Font Awesome.
 
-<img src='assets/screenshots/footer.png'>
+<img src='/screenshots/footer.png'>
 
 ## Gallery
 
@@ -52,7 +52,7 @@ I added a gallery to showcase the beauty of Leamington Spa to attract people to 
 
 I also converted all images to webp, using <https://cloudconvert.com/> for faster loading times.
 
-<img src='assets/screenshots/gallery.png'>
+<img src='/screenshots/gallery.png'>
 
 ## Contact Us
 
@@ -60,9 +60,9 @@ The contact us page was inspired by the Love Running project. I used the code fr
 
 I got the colour code for the background of my form from <https://html-color.codes/image>
 
-<img src='assets/screenshots/contact_us.png'>
+<img src='/screenshots/contact_us.png'>
 
-<img src='assets/screenshots/color_codes.png'>
+<img src='/screenshots/color_codes.png'>
 
 # Testing
 
@@ -70,19 +70,19 @@ I got the colour code for the background of my form from <https://html-color.cod
 
 I tested my code on CSS and HTML validators. My CSS came out with one parse error. This turned out to just be a small error of not closing a bracket, which was an easy fix. They now both have no errors.
 
-<img src='assets/screenshots/w3c.png'>
+<img src='/screenshots/w3c.png'>
 
-<img src='assets/screenshots/jigsaw.png'>
+<img src='/screenshots/jigsaw.png'>
 
 ## Lighthouse
 
 I tested my pages on lighthouse for performance and accessibility. Performance is a little slow due to a large amount of images. Best practices score needs more investigating. Everything else is all good.
 
-<img src='assets/screenshots/lighthouse.home.png'>
+<img src='/screenshots/lighthouse.home.png'>
 
-<img src='assets/screenshots/lighthouse.gallery.png'>
+<img src='/screenshots/lighthouse.gallery.png'>
 
-<img src='assets/screenshots/lighthouse.contact.png'>
+<img src='/screenshots/lighthouse.contact.png'>
 
 ## Manual Testing
 
